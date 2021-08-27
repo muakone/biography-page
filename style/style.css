@@ -1,0 +1,261 @@
+body {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+header {
+    margin: 1rem 0;
+    align-items: center;
+    text-align: center;
+}
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bio-header {
+    margin: -2em 0 7rem 0;
+}
+figure > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.biography {
+    margin-bottom: 2rem;
+    color: rosybrown;
+    font-size: 80px;
+}
+figure {
+    text-align: center;
+}
+figcaption {
+    margin-top: 2rem;
+}
+.inner-text {
+    max-width: 50em;
+    line-height: 1.8rem;
+    margin: -.5rem 0 1.2em 0;
+}
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 3rem;
+}
+.social-media > img {
+    width: 40px;
+    height: 50px;
+}
+.icon-box {
+    width: 40px;
+    height: 50px;
+    color: white;
+}
+.icon {
+    width: 100px;
+    height: 50px;
+    font-size: 3em;
+}
+.collab-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    text-align: start;
+}
+.collaborate {
+    margin: 0 auto;
+    align-items: center;
+    max-width: 42em;
+}
+.collaborate > h1 {
+    font-size: 55px;
+    color: rosybrown;
+}
+.collaborate > p {
+    font-size: 25px;
+    color: white;
+    font-family:  'Karla', sans-serif;
+    font-weight: 400;
+    margin-top: -1em;
+}
+.dwelling {
+    margin: 4rem auto 0 auto;
+    align-items: center;
+}
+.dwell-text {
+    max-width: 30em;
+    line-height: 1.8rem;
+    font-family:  'Karla', sans-serif;
+}
+.dwell-text > h2 {
+    color: rosybrown;
+    font-weight: 500;
+}
+.dwell-text > p {
+    font-weight: 400;
+    font-size: 19px;
+}
+.chat {
+    display: flex;
+}
+.chat > img {
+    width: 40px;
+    height: 40px;
+    margin-top: 1rem;
+}
+.inspired {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.inspired > h1 {
+    font-size: 60px;
+}
+hr {
+    width: 50em;
+}
+.inspired-text > h2 {
+    max-width: 16em;
+    font-size: 50px;
+    font-family:  'Karla', sans-serif;
+    text-align: center;
+    color: rosybrown;
+    margin: 3rem auto 0 auto;
+    align-items: center;
+    line-height: 3.5rem;
+}
+.inspired-image {
+    margin-top: 4rem;
+}
+.inspired-image > img {
+    width: 50px;
+    height: 100px;
+}
+.inspired-image > p {
+    color: rosybrown;
+    font-size: 25px;
+    font-family:  'Karla', sans-serif;
+}
+.portfolio-images {
+    margin: 10em auto 0 auto;
+}
+.row-1, .row-2 {
+    display: flex;
+    gap: 3em;
+}
+.row-1 > img, .row-2 > img {
+    width: 400px;
+    height: 400px;
+    border-radius: 3em;
+}
+.row-2 {
+    margin-top: 2em;
+}
+button {
+    width: 10em;
+    padding: .8em;
+    border: solid 1px rosybrown;
+    background-color: black;
+    color: rosybrown;
+    font-size: 20px;
+    margin: 2em 0 8em 0;
+}
+.news {
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    column-gap: 10%;
+}
+.signature > img {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    font-size: 2px;
+}
+.left-text {
+    max-width: 25em;
+    font-size: 22px;
+}
+.first-left {
+    font-size: 26px;
+    color: rosybrown;
+    font-family:  'Karla', sans-serif;
+    font-weight: 500;
+}
+.right-text > p {
+    max-width: 25em;
+    font-size: 22px;
+    margin-top: -4.5em;
+}
+.security {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+}
+.security > h2 {
+    color: rosybrown;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.call {
+    display: flex;
+    gap: 1rem;
+}
+.call > img {
+    width: 25px;
+    height: 25px;
+    margin-top: 1em;
+}
+.security-image > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 1.5em 0;
+}
+.location {
+    font-family: 'Merriweather', serif;
+}
+h3 {
+    color: rosybrown;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.location > p {
+    max-width: 12.7em;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+.sample {
+    width: 150px;
+    height: 8px;
+    background-color: rosybrown;
+    color: rosybrown;
+    border: solid 1px rosybrown;
+}
+.sample-text {
+    max-width: 13em;
+    margin: 0 auto;
+}
+footer {
+    width: 100%;
+    background-color: gray;
+    padding: 2em 0;
+    text-align: center;
+    align-items: center;
+}
